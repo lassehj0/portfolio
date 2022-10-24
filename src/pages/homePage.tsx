@@ -30,6 +30,11 @@ const Home = () => {
 								Contact
 							</button>
 						</Link>
+						<Link to='certificates'>
+							<button id='certificateBtn' onClick={OpenPopUp}>
+								Certificates
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>

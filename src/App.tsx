@@ -6,6 +6,7 @@ import About from './pages/aboutPage';
 import Projects from './pages/projectsPage';
 import Skills from './pages/skillsPage';
 import Contact from './pages/contactPage';
+import Certificates from './pages/certificatesPage';
 import NoPage from './pages/noPage';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 					<Route path='/projects' element={<Projects />} />
 					<Route path='/skills' element={<Skills />} />
 					<Route path='/contact' element={<Contact />} />
+					<Route path='/certificates' element={<Certificates />} />
 					<Route path='*' element={<NoPage />} />
 				</Routes>
 			</div>
